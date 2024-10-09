@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 80vh;
+  display: flex;
+  background-color: rgb(175, 120, 175);
+}
+
+.cards {
+  width: 900px;
+  height: 900px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: calc(33.3% - 10px);
+  height: calc(40% - 10px);
+  margin: 5px;
+  position: relative;
+  border: solid black;
+  background-color: rgb(230, 106, 230);
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.address {
+  margin-top: auto;
+}
+
+.descript {
+  margin-bottom: auto;
+}
+
+img {
+  max-height: 60%;
+  max-width: 60%;
+}
